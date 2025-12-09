@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "计算函数 f(x) = 3x² - 2x + 1 的导数",
+    "answer": "6x - 2",
+    "solution": "使用幂函数求导法则：d/dx(3x²)=6x, d/dx(-2x)=-2, d/dx(1)=0",
+    "difficulty": "easy",
+    "topic": "derivative"
+  },
+  {
+    "id": 2,
+    "question": "求函数 f(x) = sin(x) + cos(x) 的导数",
+    "answer": "cos(x) - sin(x)",
+    "solution": "分别求导：d/dx(sin x)=cos x, d/dx(cos x)=-sin x",
+    "difficulty": "easy",
+    "topic": "derivative"
+  },
+  {
+    "id": 3,
+    "question": "计算定积分 ∫₀¹ (2x + 1) dx",
+    "answer": "2",
+    "solution": "先求原函数：x² + x，然后计算 F(1)-F(0)=(1+1)-(0+0)=2",
+    "difficulty": "medium",
+    "topic": "integral"
+  },
+  {
+    "id": 4,
+    "question": "求函数 f(x) = x·eˣ 的导数",
+    "answer": "eˣ(x + 1)",
+    "solution": "使用乘积法则：(uv)'=u'v+uv'，其中u=x, v=eˣ",
+    "difficulty": "medium",
+    "topic": "derivative"
+  },
+  {
+    "id": 5,
+    "question": "计算极限 lim_{x→0} (sin x / x)",
+    "answer": "1",
+    "solution": "使用重要极限或洛必达法则",
+    "difficulty": "hard",
+    "topic": "limit"
+  }
+]
